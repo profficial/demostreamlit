@@ -1,11 +1,36 @@
-streamlit
+# Streamlit web framework
+streamlit==1.45.1
+
+# Torch for Whisper + transformers
 torch==2.2.2
+numpy>=1.24.0
+
+# Faster Whisper transcription
 openai-whisper
+
+# HuggingFace transformers for LLM
 transformers
+
+# LangChain core + community integrations + huggingface embedding support
 langchain
 langchain-community
 langchain-huggingface
+
+# Vector store backend
 faiss-cpu
+
+# Used in your optimized LLM class
 pydantic
-numpy
+
+# Sentence embeddings
+sentence-transformers
+
+# For audio handling
+ffmpeg-python
+
+# JSON parsing, etc.
+orjson
+
+# Optional but recommended
 pandas
+ffmpeg
