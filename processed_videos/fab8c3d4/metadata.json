@@ -1,0 +1,13 @@
+{
+  "video_name": "Test",
+  "video_id": "fab8c3d4",
+  "processed_at": "2025-07-01T08:22:20.420743",
+  "transcript_length": 6931,
+  "summary_length": 953,
+  "chunks_count": 10,
+  "processing_times": {
+    "transcription": 51.1,
+    "summarization": 8.93,
+    "vectorization": 1.13
+  }
+}
