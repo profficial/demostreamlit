@@ -1,6 +1,11 @@
 streamlit
 torch==2.2.2
 openai-whisper
-ffmpeg-python
+transformers
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+pydantic
 numpy
 pandas
