@@ -1,51 +1,22 @@
-# UI framework
 streamlit==1.45.1
-
-# Whisper (optimized faster-whisper can also be used but sticking to openai-whisper since you use it)
 openai-whisper @ git+https://github.com/openai/whisper.git@dd985ac4b90cafeef8712f2998d62c59c3e62d22
-
-# PyTorch with security fix (CVE-2025-32434), 2.7.0 verified working locally
 torch==2.7.0
-
-# Avoid numpy 2.x issues, pin below 2.0
-numpy<2.0
-
-# Hugging Face Transformers & Sentence Transformers for LLM + embeddings
+numpy==1.26.4
 transformers==4.53.0
 sentence-transformers==4.1.0
-
-# LangChain core & integrations
 langchain==0.3.25
-langchain-community==0.3.24
+langchain-community==0.0.37
 langchain-core==0.3.61
 langchain-huggingface==0.2.0
 langchain-text-splitters==0.3.8
-
-# Vector DB
 faiss-cpu==1.11.0
-
-# Audio/video support for transcription
 ffmpeg-python==0.2.0
-
-# Optimized JSON parsing
 orjson==3.10.18
-
-# Text processing & typing
 pydantic==2.11.5
 pandas==2.2.3
-
-# Utilities for timeouts and retries (often used in LangChain)
 tenacity==9.1.2
-
-# Tokenization for LLMs
 tiktoken==0.9.0
-
-# Hugging Face hub utilities
 huggingface-hub==0.32.0
-
-# Any additional essential used by your script (like regex, typing extensions)
 regex==2024.11.6
 typing_extensions==4.12.2
-
-# Optional but recommended: safetensors (safe model serialization)
 safetensors==0.5.3
