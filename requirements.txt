@@ -4,11 +4,14 @@ torch==2.7.0
 numpy==1.26.4
 transformers==4.53.0
 sentence-transformers==4.1.0
+
+# LangChain ecosystem - compatible versions
 langchain==0.3.25
-langchain-community==0.0.37
 langchain-core==0.3.61
-langchain-huggingface==0.2.0
+langchain-community==0.3.23
 langchain-text-splitters==0.3.8
+langchain-huggingface==0.2.0
+
 faiss-cpu==1.11.0
 ffmpeg-python==0.2.0
 orjson==3.10.18
